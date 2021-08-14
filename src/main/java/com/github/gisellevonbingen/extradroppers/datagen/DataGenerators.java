@@ -1,5 +1,7 @@
 package com.github.gisellevonbingen.extradroppers.datagen;
 
+import com.github.gisellevonbingen.extradroppers.common.data.EmptyExistingFileHelper;
+
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -26,7 +28,7 @@ public class DataGenerators
 
 		if (event.includeClient())
 		{
-			generator.addProvider(new ItemModelGenerator(generator, existingFileHelper));
+			generator.addProvider(new ItemModelGenerator(generator, new EmptyExistingFileHelper()));
 		}
 
 	}

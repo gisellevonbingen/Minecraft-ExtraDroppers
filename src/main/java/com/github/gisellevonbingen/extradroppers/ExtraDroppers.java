@@ -22,7 +22,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 public class ExtraDroppers
 {
 	public static final String MODID = "extradroppers";
-	public static final String MODANME = "More Mekanism Processing";
+	public static final String MODANME = "Extra Droppers";
 	public static final Logger LOGGER = LogManager.getLogger();
 
 	public ExtraDroppers()

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "result": {
+    "item": "extradroppers:tiny_gauge_dropper",
+    "nbt": "{tiny_gauge_dropper:{capacity:1}}"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:stick"
+    }
+  ]
+}
