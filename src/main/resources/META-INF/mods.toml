@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All rights reserved"
+[[mods]]
+modId="extradroppers"
+version="0.5"
+displayName="ExtraDroppers"
+credits="gisellevonbingen"
+authors="gisellevonbingen"
+description='''
+ExtraDroppers
+'''
+[[dependencies.extradroppers]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.extradroppers]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.extradroppers]]
+    modId="mekanism"
+    mandatory=true
+    versionRange="[10.0.20,)"
+    ordering="AFTER"
+    side="BOTH"
