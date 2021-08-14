@@ -25,10 +25,9 @@ public class CookingRecipeBuilder extends SingleOutputRecipeBuilder
 		return this.ingredient;
 	}
 
-	public CookingRecipeBuilder setIngredient(Ingredient ingredient)
+	public void setIngredient(Ingredient ingredient)
 	{
 		this.ingredient = ingredient;
-		return this;
 	}
 
 	public float getExperience()
@@ -36,10 +35,9 @@ public class CookingRecipeBuilder extends SingleOutputRecipeBuilder
 		return this.experience;
 	}
 
-	public CookingRecipeBuilder setExperience(float experience)
+	public void setExperience(float experience)
 	{
 		this.experience = experience;
-		return this;
 	}
 
 	public int getSmeltingTime()
